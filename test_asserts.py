@@ -1,10 +1,10 @@
-def add(a:int, b:int):
+def add(a: int, b: int): 
     return a + b
 
 
-def test_add_positive():
+def test_add_positive(): 
     assert add(1, 2) == 3
 
 
-def test_random_func():
+def test_random_func(): 
     assert "func" == "func"
